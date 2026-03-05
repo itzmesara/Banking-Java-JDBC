@@ -9,7 +9,7 @@ public class JDBConnection {
 	ResultSet rs=null;
 	String Host="jdbc:mysql://localhost:3306/bank";
 	String username="root";
-	String pass="SARA_SS#2610";
+	String pass="your_password";
 	public JDBConnection() throws Exception
 	{
 		Class.forName("com.mysql.cj.jdbc.Driver");
